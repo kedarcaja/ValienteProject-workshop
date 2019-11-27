@@ -62,8 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ExplodePart.cs" />
-    <Compile Include="Assets\Scripts\ExplodePartManager.cs" />
     <Compile Include="Assets\Scripts\Float_on_water.cs" />
     <Compile Include="Assets\Scripts\Reflection_pass.cs" />
     <Compile Include="Assets\Scripts\TreeSwinger.cs" />
