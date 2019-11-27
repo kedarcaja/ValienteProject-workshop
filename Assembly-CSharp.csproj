@@ -66,10 +66,8 @@
     <Compile Include="Assets\Scripts\Reflection_pass.cs" />
     <Compile Include="Assets\Scripts\TreeSwinger.cs" />
     <None Include="Assets\Art\Shaders\MobileShader\beffio_Water_Mobile.shader" />
-    <None Include="Assets\beffio\Medieval Kingdom\Content\Shaders\beffio_BaseShader.shader" />
     <None Include="Assets\Art\Shaders\beffio_Trees.shader" />
     <None Include="Assets\Art\Shaders\beffio_Fire.shader" />
-    <None Include="Assets\beffio\Medieval Kingdom\Content\Shaders\beffio_Fabric.shader" />
     <None Include="Assets\Art\Shaders\beffio_Parallax.shader" />
     <None Include="Assets\Art\Shaders\MobileShader\beffio_Mobile.shader" />
     <None Include="Assets\Art\Shaders\beffio_Shafts.shader" />
