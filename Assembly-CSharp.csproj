@@ -74,8 +74,6 @@
     <None Include="Assets\beffio\Medieval Kingdom\Content\Shaders\beffio_Fabric.shader" />
     <None Include="Assets\beffio\Medieval Kingdom\How to Start &amp; Documentation.txt" />
     <None Include="Assets\Art\Shaders\beffio_Parallax.shader" />
-    <None Include="Assets\Art\Shaders\beffio_BaseShader.shader" />
-    <None Include="Assets\Art\Shaders\beffio_Fabric.shader" />
     <None Include="Assets\Art\Shaders\MobileShader\beffio_Mobile.shader" />
     <None Include="Assets\Art\Shaders\beffio_Shafts.shader" />
     <None Include="Assets\Art\Shaders\BaseShader.shader" />
