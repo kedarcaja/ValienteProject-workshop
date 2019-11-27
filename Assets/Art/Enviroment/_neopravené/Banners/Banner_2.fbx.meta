@@ -1,22 +1,20 @@
 fileFormatVersion: 2
-guid: 4cd02ef36f51dee4497425bde055a936
-timeCreated: 1552570784
+guid: c5cb8c3c11c0f7d45aa80cd28bca0f6f
+timeCreated: 1520426529
 licenseType: Store
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Banners
+    2100000: Steel
+    2100002: banerwhite
+    2100004: banerRed
+    2100006: Rope
     2300000: //RootNode
     3300000: //RootNode
     4300000: banner_2
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Banners
-    second: {fileID: 2100000, guid: 204a7a6cc96151d4a930c0936c45fa96, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -54,7 +52,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
