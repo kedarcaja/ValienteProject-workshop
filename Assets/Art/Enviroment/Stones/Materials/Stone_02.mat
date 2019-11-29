@@ -76,7 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Detail_mask_2_map_input:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 60f4b1b946243af4c81ea8c64581be8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Edge_mask_map_input:
@@ -203,10 +203,10 @@ Material:
     - _Bricks_color_differrence: 0
     - _BumpScale: 1
     - _Contrast: 4
-    - _Cutoff: 0
+    - _Cutoff: 0.5
     - _DetailNormal_map_inputMapScale: 1
     - _Detail_1_level: 0.89
-    - _Detail_2_level: 0
+    - _Detail_2_level: 0.7
     - _Detail_Smoothness_shift: 0
     - _Detail_level: 1
     - _DstBlend: 0

@@ -104,7 +104,7 @@ Material:
     - _Alpha_cutout_level: 1
     - _Alpha_cutout_mask_map_input_level: 1
     - _BumpScale: 1
-    - _Cutoff: 0
+    - _Cutoff: 0.5
     - _DetailNormal_map_inputMapScale: 1
     - _Detail_2_level: 1
     - _Detail_Smoothness_shift: 0
