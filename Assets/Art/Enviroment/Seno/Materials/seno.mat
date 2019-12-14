@@ -65,7 +65,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 9510e289c5d8ce048b16ea337eab1eb9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7e9a032d2a8d615419bba05c720c0321, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SubsurfaceTex:
@@ -81,7 +81,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 0.792
     - _GlossyReflections: 1
     - _HueVariationKwToggle: 0
     - _Metallic: 0
