@@ -223,10 +223,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.264
     - _GlossyReflections: 1
-    - _Material_Smoothness_shift: 0.4
+    - _Material_Smoothness_shift: 0.41
     - _Metallic: 0
     - _Metalobjectusesmettalicsmoothnesmap: 0
-    - _Mettallic_shift: 0.3
+    - _Mettallic_shift: 0.49
     - _Mode: 0
     - _Normal_intensity: 0.7
     - _Normal_map_input_Detail_level: 0.797
@@ -252,11 +252,11 @@ Material:
     - _top2: 0.12
     - _top3: 0.7
     m_Colors:
-    - _Base_color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 0}
+    - _Base_color: {r: 0.8207547, g: 0.80914026, b: 0.80914026, a: 0}
     - _Color: {r: 0.39705884, g: 0.39705884, b: 0.39705884, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _DetaiL_2_color: {r: 1, g: 1, b: 1, a: 0}
-    - _Detail_2_color: {r: 0, g: 0, b: 0, a: 0}
+    - _Detail_2_color: {r: 0.1689669, g: 0.254717, b: 0.027634395, a: 0}
     - _Detail_color: {r: 0.25490198, g: 0.3372549, b: 0.1764706, a: 0}
     - _Edge_color: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
