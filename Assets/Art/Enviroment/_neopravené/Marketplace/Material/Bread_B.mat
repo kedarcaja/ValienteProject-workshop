@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Bread_B
   m_Shader: {fileID: 4800000, guid: ca8c7b0a6e455b34a956d170adcc5914, type: 3}
   m_ShaderKeywords: 
@@ -110,7 +111,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Material_Smoothness_shift: 1
+    - _Material_Smoothness_shift: 0.5
     - _Metal_object: 0
     - _Metallic: 0
     - _Metalobjectusesmettalicsmoothnesmap: 0
