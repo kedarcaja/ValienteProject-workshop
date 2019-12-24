@@ -53314,7 +53314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -137.9948
+      value: -138.02809
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -53322,23 +53322,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 70.02077
+      value: 69.961334
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000081458026
+      value: -4.4368653e-10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0076491684
+      value: 0.99998516
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -6.231173e-10
+      value: -0.00000008145924
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99997073
+      value: -0.0054466757
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_RootOrder
@@ -53350,7 +53350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0.87700003
+      value: 180.624
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -53371,7 +53371,7 @@ PrefabInstance:
     - target: {fileID: 2300000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: b8f1c72e68df61f458dbb0f0522a938e, type: 2}
+      objectReference: {fileID: 2100000, guid: 2e9ab84ec4d09d4429682525a702166f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ed76f4f6307334e9904deaa8339d08, type: 3}
 --- !u!4 &1846990376 stripped

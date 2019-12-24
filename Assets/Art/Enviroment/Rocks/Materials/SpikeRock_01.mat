@@ -7,9 +7,9 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SpikeRock_02_A
+  m_Name: SpikeRock_01
   m_Shader: {fileID: 4800000, guid: ca8c7b0a6e455b34a956d170adcc5914, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -20,7 +20,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo_smoothness_map_input:
-        m_Texture: {fileID: 2800000, guid: 410d2df925c31fc488dff25c9c454e1a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3bb0927849d5d9c40b5bc435795c8f1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Alpha_cutout_mask_map_input:
@@ -28,11 +28,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ambient_Occlusion_map_input:
-        m_Texture: {fileID: 2800000, guid: 549ae79c2d597ef44b2e84d1069dc8f7, type: 3}
+        m_Texture: {fileID: 2800000, guid: b6fd96e3fb2dd4a4fa1323a097ce67d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 8b61362494612dc41ad9a276ced1cd00, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -48,7 +48,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Detail_mask_1_map_input:
-        m_Texture: {fileID: 2800000, guid: 3234e9fa3bc53824eab4ac0bc0987748, type: 3}
+        m_Texture: {fileID: 2800000, guid: 0a27d74911d1504499a93f401b3cfb25, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Detail_mask_2_map_input:
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Edge_mask_map_input:
-        m_Texture: {fileID: 2800000, guid: 3baf04635970040439dd24a590911f2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3be857ea7e513934c80e27915a5f7688, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -68,11 +68,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 410d2df925c31fc488dff25c9c454e1a, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 5be76f9fdc07e2242a1f19f4c704b730, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic_Smoothness_map_input:
@@ -80,11 +80,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal_map_input:
-        m_Texture: {fileID: 2800000, guid: 8b61362494612dc41ad9a276ced1cd00, type: 3}
+        m_Texture: {fileID: 2800000, guid: b34d9f621f3d86740b5b90787564a647, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 549ae79c2d597ef44b2e84d1069dc8f7, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -125,10 +125,10 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Base_color: {r: 0.509434, g: 0.509434, b: 0.509434, a: 0}
+    - _Base_color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Detail_2_color: {r: 0, g: 0.9779412, b: 0.7756083, a: 0}
-    - _Detail_color: {r: 0.22745098, g: 0.32156864, b: 0.13725491, a: 0}
+    - _Detail_color: {r: 0.20808494, g: 0.3018868, b: 0.118191525, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emmsivie_color: {r: 0.9779412, g: 0.9210103, b: 0.68312067, a: 0}
     - _Material_Tiling: {r: 1, g: 1, b: 0, a: 0}
