@@ -239,7 +239,7 @@ Material:
     - _BumpScale: 1
     - _Caustic_intensity: 1
     - _Caustic_parallax: 1
-    - _ChromaticAberration: 0.124
+    - _ChromaticAberration: 0.05
     - _Cutoff: 0
     - _DepthFadeDistance: 0
     - _Depth_Intensity: 0
@@ -273,7 +273,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
-    - _IndexofRefraction: 0.69
+    - _IndexofRefraction: 0.73
     - _Maskoffon: 0
     - _Material_Smoothness_shift: 1
     - _Metallic: 0.534
@@ -292,7 +292,7 @@ Material:
     - _Normal_blend: 0.5
     - _Normal_intensity: 1
     - _OcclusionStrength: 1
-    - _Opacity: 0.505
+    - _Opacity: 0.709
     - _Opacity_shift: 0.66
     - _Parallax: 0.02
     - _Reflection_power: 0.5

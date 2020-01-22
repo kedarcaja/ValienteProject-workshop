@@ -3,9 +3,9 @@ guid: ca8c7b0a6e455b34a956d170adcc5914
 ShaderImporter:
   externalObjects: {}
   defaultTextures:
-  - _Detail_mask_1_map_input: {fileID: 2800000, guid: 7a947e26d6355c94898b3bf52c6e07da,
+  - _Detail_mask_1_map: {fileID: 2800000, guid: 7a947e26d6355c94898b3bf52c6e07da,
       type: 3}
-  - _Detail_mask_2_map_input: {fileID: 2800000, guid: 7a947e26d6355c94898b3bf52c6e07da,
+  - _Detail_mask_2_map: {fileID: 2800000, guid: 7a947e26d6355c94898b3bf52c6e07da,
       type: 3}
   nonModifiableTextures: []
   userData: 
