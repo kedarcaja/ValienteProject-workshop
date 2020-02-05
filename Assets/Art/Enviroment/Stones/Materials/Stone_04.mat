@@ -10,7 +10,7 @@ Material:
   m_Name: Stone_04
   m_Shader: {fileID: 4800000, guid: ca8c7b0a6e455b34a956d170adcc5914, type: 3}
   m_ShaderKeywords: _NORMALMAP
-  m_LightmapFlags: 4
+  m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 82ccb4c5bcbabc24d9ca6f48b602ef04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Albedo_map:
+        m_Texture: {fileID: 2800000, guid: 2062979d4808bff44adcaee0d8d1bc3b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Albedo_smoothness_map_input:
         m_Texture: {fileID: 2800000, guid: 2062979d4808bff44adcaee0d8d1bc3b, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -35,8 +39,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Alpha_cutout_mask_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Alpha_cutout_mask_map_input:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ambient_Occlusion_map:
+        m_Texture: {fileID: 2800000, guid: f572d44ecc6a72d4eb9c6bd3d75d2005, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ambient_Occlusion_map_input:
@@ -67,6 +79,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Detail_mask_1_map:
+        m_Texture: {fileID: 2800000, guid: 46e8a8ee261fbe74db947dde7d0fb684, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Detail_mask_1_map_input:
         m_Texture: {fileID: 2800000, guid: 46e8a8ee261fbe74db947dde7d0fb684, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -75,8 +91,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Detail_mask_2_map:
+        m_Texture: {fileID: 2800000, guid: 60f4b1b946243af4c81ea8c64581be8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Detail_mask_2_map_input:
         m_Texture: {fileID: 2800000, guid: 60f4b1b946243af4c81ea8c64581be8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Edge_mask_map:
+        m_Texture: {fileID: 2800000, guid: 616921ac96a6f1b4aba3472ec6eccb7f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Edge_mask_map_input:
@@ -89,6 +113,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Emmisive_mask:
         m_Texture: {fileID: 2800000, guid: 4603fb72a12fbbc46a7b724ecb4b4c60, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emmisive_mask_map:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emmisive_mask_map_input:
@@ -111,6 +139,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metallic_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_map:
+        m_Texture: {fileID: 2800000, guid: a380bb61cf8558540b5bf552ffb01a9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal_map_input:
         m_Texture: {fileID: 2800000, guid: a380bb61cf8558540b5bf552ffb01a9f, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -120,6 +156,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness_map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -196,6 +236,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AO_intensity: 1
     - _AO_shift: 1
     - _Alpha_cutout_level: 1
     - _Base_Normal_Intensity: 1
@@ -205,10 +246,13 @@ Material:
     - _Contrast: 4
     - _Cutoff: 0.5
     - _DetailNormal_map_inputMapScale: 1
+    - _Detail_1_intensity: 0.9
     - _Detail_1_level: 2
+    - _Detail_2_intensity: 0.332
     - _Detail_2_level: 0.7
     - _Detail_Smoothness_shift: 0
     - _Detail_level: 1
+    - _Detail_roughness: 0.8
     - _DstBlend: 0
     - _Edge_wear: 1
     - _Edges_intensity: 0.507144
@@ -226,12 +270,14 @@ Material:
     - _Material_Smoothness_shift: 0.4
     - _Metallic: 0
     - _Metalobjectusesmettalicsmoothnesmap: 0
+    - _Mettallic_intensity: 0
     - _Mettallic_shift: 0.3
     - _Mode: 0
-    - _Normal_intensity: 0.7
+    - _Normal_intensity: 1
     - _Normal_map_input_Detail_level: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Roughnessintensity: 0.8
     - _SmoothnessTextureChannel: 0
     - _Smoothness_shift: 0.5524658
     - _Snow_normal_intensity: 0.25
@@ -252,10 +298,11 @@ Material:
     - _top2: 0.12
     - _top3: 0.7
     m_Colors:
-    - _Base_color: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 0}
+    - _Base_color: {r: 0.745, g: 0.745, b: 0.745, a: 0}
     - _Color: {r: 0.39705884, g: 0.39705884, b: 0.39705884, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _DetaiL_2_color: {r: 1, g: 1, b: 1, a: 0}
+    - _Detail_1_color: {r: 0.16862746, g: 0.2509804, b: 0.10980392, a: 0}
     - _Detail_2_color: {r: 0, g: 0, b: 0, a: 0}
     - _Detail_color: {r: 0.25490198, g: 0.3372549, b: 0.1764706, a: 0}
     - _Edge_color: {r: 1, g: 1, b: 1, a: 0}

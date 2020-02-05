@@ -19,12 +19,24 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Albedo_map:
+        m_Texture: {fileID: 2800000, guid: 3bb0927849d5d9c40b5bc435795c8f1d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Albedo_smoothness_map_input:
         m_Texture: {fileID: 2800000, guid: 3bb0927849d5d9c40b5bc435795c8f1d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Alpha_cutout_mask_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Alpha_cutout_mask_map_input:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ambient_Occlusion_map:
+        m_Texture: {fileID: 2800000, guid: b6fd96e3fb2dd4a4fa1323a097ce67d6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ambient_Occlusion_map_input:
@@ -47,12 +59,24 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Detail_mask_1_map:
+        m_Texture: {fileID: 2800000, guid: 0a27d74911d1504499a93f401b3cfb25, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Detail_mask_1_map_input:
         m_Texture: {fileID: 2800000, guid: 0a27d74911d1504499a93f401b3cfb25, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Detail_mask_2_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Detail_mask_2_map_input:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Edge_mask_map:
+        m_Texture: {fileID: 2800000, guid: 3be857ea7e513934c80e27915a5f7688, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Edge_mask_map_input:
@@ -60,6 +84,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emmisive_mask_map:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -79,6 +107,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Metallic_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal_map:
+        m_Texture: {fileID: 2800000, guid: b34d9f621f3d86740b5b90787564a647, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Normal_map_input:
         m_Texture: {fileID: 2800000, guid: b34d9f621f3d86740b5b90787564a647, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -91,21 +127,29 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Roughness_map:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AO_intensity: 1
     - _AO_shift: 1
     - _Alpha_cutout_level: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
+    - _Detail_1_intensity: 0.8
+    - _Detail_2_intensity: 0
     - _Detail_2_level: 0
     - _Detail_Smoothness_shift: 0
     - _Detail_level: 1
+    - _Detail_roughness: 0.8
     - _DstBlend: 0
-    - _Edge_wear: 1
+    - _Edge_wear: 0.1
     - _Emmisive_intensity: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -113,11 +157,13 @@ Material:
     - _Material_Smoothness_shift: 0.3
     - _Metallic: 0
     - _Metalobjectusesmettalicsmoothnesmap: 0
+    - _Mettallic_intensity: 0
     - _Mettallic_shift: 0
     - _Mode: 0
-    - _Normal_intensity: 1
+    - _Normal_intensity: 0.7
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Roughnessintensity: 0.8
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -125,9 +171,10 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _Base_color: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 0}
+    - _Base_color: {r: 0.73800004, g: 0.73800004, b: 0.73800004, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Detail_2_color: {r: 0, g: 0.9779412, b: 0.7756083, a: 0}
+    - _Detail_1_color: {r: 0.16862746, g: 0.2509804, b: 0.10980392, a: 0}
+    - _Detail_2_color: {r: 0, g: 0, b: 0, a: 1}
     - _Detail_color: {r: 0.20808494, g: 0.3018868, b: 0.118191525, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Emmsivie_color: {r: 0.9779412, g: 0.9210103, b: 0.68312067, a: 0}

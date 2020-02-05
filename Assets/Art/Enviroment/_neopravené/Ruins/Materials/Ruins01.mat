@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Ruins01
   m_Shader: {fileID: 4800000, guid: b1a8003b3a91375448f9f79b0f6e32f6, type: 3}
   m_ShaderKeywords: 
@@ -195,14 +196,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _AO_shift: 0.5
-    - _Base_Normal_Intensity: 1
+    - _AO_shift: 0.99
+    - _Base_Normal_Intensity: 0.59
     - _Bricks_color_differrence: 0
     - _Bricks_color_shift: 0
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormal_map_inputMapScale: 1
-    - _Detail_1_level: 1
+    - _Detail_1_level: 0.76
     - _Dirt_level: -1
     - _DstBlend: 0
     - _Edge_wear: 1
@@ -215,7 +216,7 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Material_Smoothness_shift: 0.78
+    - _Material_Smoothness_shift: 0.66
     - _Metallic: 0
     - _Mode: 0
     - _Normal_map_input_Detail_level: 1
@@ -226,9 +227,9 @@ Material:
     - _Smoothness_shift: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Top_mask_level: 0.4
-    - _Top_mask_normal_intensity: 2
-    - _Top_mask_smoothness_shift: 1
+    - _Top_mask_level: 1
+    - _Top_mask_normal_intensity: 1
+    - _Top_mask_smoothness_shift: 0.256
     - _Top_mask_tiling: 4
     - _UVSec: 0
     - _ZWrite: 1
