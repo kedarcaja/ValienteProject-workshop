@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo_map:
-        m_Texture: {fileID: 2800000, guid: d36b2f0079c27e447a4e5a68d2386808, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2062979d4808bff44adcaee0d8d1bc3b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Albedo_map_input:
@@ -331,7 +331,7 @@ Material:
     m_Colors:
     - _2nd_color: {r: 1, g: 1, b: 1, a: 0}
     - _Base_Color: {r: 0.35294116, g: 0.54509807, b: 0.22352937, a: 0}
-    - _Base_color: {r: 0.61, g: 0.61, b: 0.61, a: 0}
+    - _Base_color: {r: 0.761, g: 0.761, b: 0.761, a: 0}
     - _Color: {r: 0.39705884, g: 0.39705884, b: 0.39705884, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 0}
     - _DetaiL_2_color: {r: 1, g: 1, b: 1, a: 0}
